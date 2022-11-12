@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+#msg-input {
+    border: 0px;
+    width: 70%;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    position: fixed;
+    left: 10%;
+
+}
+#btn-send {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    right: 10%;
+    position: fixed;
+}
+#send-icon {
+    height: 40px;
+    width: 40px;
+}
+#input-container {
+    bottom: 7px;
+    position: fixed;
+    height: 40px;
+    width: 80%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 12px;
+}
+#msg-container {
+    width: max-content;
+    height: max-content;
+    margin-bottom: 50px;
+}
+.user_tick{
+	width:20px;
+}
+.message_h4{
+	padding-left:5px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.username{
+    padding-left:5px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 3px;
+}
+.like{
+    height: 30px;
+    background-color: transparent;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+}
+.like:hover{
+    background-color: rgba(255, 255, 255, 0.11);
+    opacity: 1;
+    color: white;
+    transition-duration: 0.2s;
+}
